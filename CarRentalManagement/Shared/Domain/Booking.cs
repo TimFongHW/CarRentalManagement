@@ -2,7 +2,7 @@
 
 namespace CarRentalManagement.Shared.Domain
 {
-    public class Booking :BaseDomainModel
+    public class Booking : BaseDomainModel
     {
         public DateTime DateOut { get; set; }
         public DateTime DateIn { get; set; }
